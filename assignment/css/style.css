@@ -1,0 +1,90 @@
+body{
+    font-size: 16px;
+    background-color: #cc9a1dce;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+/* NAVIGATION BAR STYLING */
+#header-nav{
+    border: 0;
+    border-radius: 0;
+    background-color: #a8c5d3;
+}
+.navbar-brand{
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.navbar-brand h1{
+    font-family: 'Lora', serif;
+    color: #1689f4d6;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a{
+    text-align: center;
+    color: white;
+}
+#nav-list a:hover{
+    background-color:#cc9a1dce ;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #1689f4d6;
+}
+.navbar-header button.navbar-toggle {
+    clear:both;
+    margin-top: -30px;
+}
+/* NAVIGATION BAR END */
+
+
+/* HOME PAGE STYLING */
+
+
+#chicken-tile, #shorma-tile, #sushi-tile{
+    border: 2px solid #eee679;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color: #557c3e;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.6em;
+}
+#chicken-tile p, #shorma-tile p, #sushi-tile p{
+    text-align: left;
+    margin-top: 30px;
+    font-size: .7em;
+}
+#menu-header{
+    margin-bottom: 30px;
+}
+
+/* HOME PAGE END */
+
+/* RESPONSIVE LAYOUT USUNG MEDIA QUERIES */
+
+@media(max-width:767px){
+    .navbar-brand{
+        padding: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1{
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+    #collapsable-nav a{
+        font-size: 1.4em;
+    }
+
+}
+
